@@ -1,0 +1,4 @@
+name = Bootstrap Accordion
+description = Bootstrap Accordion plugin for cKEditor advance feature.
+package = CKEditor
+core = 7.x

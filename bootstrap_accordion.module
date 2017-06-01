@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Implements hook_wysiwyg_plugin().
+ */
+
+function bootstrap_accordion_wysiwyg_plugin($editor, $version) {
+    if ($editor != 'ckeditor') {
+        return;
+    }
+    $plugins = array();
+    $plugins['accordion'] = array(
+        'path' => drupal_get_path('module', 'bootstrap_accordion') . '/plugins/accordion',
+        'filename' => 'plugin.js',
+        'load' => TRUE,
+        'icon file' => 'icons/accordion.png',
+        'icon title' => t('Insert a Accordion'),
+        'buttons' => array(
+            'accordion' => t('Accordion')
+        )
+    );
+    return $plugins;
+}
