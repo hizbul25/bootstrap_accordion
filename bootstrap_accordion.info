@@ -1,4 +1,5 @@
 name = Bootstrap Accordion
 description = Bootstrap Accordion plugin for cKEditor advance feature.
 package = CKEditor
+dependencies[] = wysiwyg
 core = 7.x
