@@ -3,7 +3,7 @@ Sometimes we need to add accordion of our project content. Bootstrap accoridon i
 
 ### Prerequisites
 * Drupal 7.x
-* wysiwyg module
+* `wysiwyg` module
 
 ### Installing
 Just like other drupal 7 module you can install it on your project.
@@ -12,25 +12,25 @@ Just like other drupal 7 module you can install it on your project.
 After installing module follow below steps:
 * Enable `accordion` for your editor.
 
-![Bootstarp Accordion](https://ibb.co/fZaWLG)
+![Bootstarp Accordion](https://image.ibb.co/nbFnub/CKEditor_profile_for_Full_HTML_Physicians.png)
 
 * Create content from your desired content type.
-* Select text format `HTML`.
+* Select text format `Full HTML`.
 * Click on Accordion iocn
 
-![Accordion iocn](https://ibb.co/ebJU7w)
+![Accordion Input Modal](https://image.ibb.co/e7ALEb/Create_Procedure_Physicians_1.png)
 
 * You will found a modal, there you have to put a integer number. This number will define your accordion item numbner.
 * If you put 3 then you will get 3 accordion item template.
 * Now you have to change default text from accordion by your text.
 
-![Accordion iocn](https://ibb.co/gjPfEb)
+![Accordion Template](https://image.ibb.co/cG4fEb/Create_Procedure_Physicians.png)
 
 * After saving your content you will get an awsome bootstrap accordion.
 * Add your style if you need.
 
 
-![Accordion iocn](https://ibb.co/hS6hSw)
+![Accordion Final Output](https://image.ibb.co/eiLnub/Test_Physicians.png)
 
 
 ## Author
